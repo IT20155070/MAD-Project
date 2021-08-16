@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlmsGiving1">
+
+    <ScrollView
+        android:layout_width="413dp"
+        android:layout_height="1213dp"
+        android:background="@drawable/background"
+        android:fillViewport="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-19dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/checkBox38"
+                android:layout_width="205dp"
+                android:layout_height="27dp"
+                android:text="@string/checkBox38"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:buttonTint="@color/white"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="1003dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox37"
+                android:layout_width="205dp"
+                android:layout_height="27dp"
+                android:text="@string/checkBox37"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:buttonTint="@color/white"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="976dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox35"
+                android:layout_width="205dp"
+                android:layout_height="27dp"
+                android:text="@string/checkBox35"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:buttonTint="@color/white"
+                tools:layout_editor_absoluteX="90dp"
+                tools:layout_editor_absoluteY="877dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox34"
+                android:layout_width="205dp"
+                android:layout_height="27dp"
+                android:text="@string/checkBox34"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:buttonTint="@color/white"
+                tools:layout_editor_absoluteX="90dp"
+                tools:layout_editor_absoluteY="851dp" />
+
+            <TextView
+                android:id="@+id/textView_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_a"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="23sp"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="55dp" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textView50"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="102dp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textView51"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="135dp" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textView52"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="168dp" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textView53"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="211dp"
+                tools:layout_editor_absoluteY="105dp" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textView54"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="214dp"
+                tools:layout_editor_absoluteY="139dp" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textView55"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="23sp"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="227dp" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textView56"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="21sp"
+                tools:layout_editor_absoluteX="65dp"
+                tools:layout_editor_absoluteY="262dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox_1"
+                android:layout_width="205dp"
+                android:layout_height="27dp"
+                android:text="@string/checkBox_1"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:buttonTint="@color/white"
+                tools:layout_editor_absoluteX="90dp"
+                tools:layout_editor_absoluteY="290dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox18"
+                android:layout_width="205dp"
+                android:layout_height="27dp"
+                android:text="@string/checkBox18"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:buttonTint="@color/white"
+                tools:layout_editor_absoluteX="90dp"
+                tools:layout_editor_absoluteY="317dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox20"
+                android:layout_width="205dp"
+                android:layout_height="27dp"
+                android:text="@string/checkBox20"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:buttonTint="@color/white"
+                tools:layout_editor_absoluteX="90dp"
+                tools:layout_editor_absoluteY="344dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox21"
+                android:layout_width="205dp"
+                android:layout_height="27dp"
+                android:text="@string/checkBox21"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:buttonTint="@color/white"
+                tools:layout_editor_absoluteX="90dp"
+                tools:layout_editor_absoluteY="371dp" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textView57"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="21sp"
+                tools:layout_editor_absoluteX="65dp"
+                tools:layout_editor_absoluteY="416dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox22"
+                android:layout_width="205dp"
+                android:layout_height="27dp"
+                android:text="@string/checkBox22"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:buttonTint="@color/white"
+                tools:layout_editor_absoluteX="90dp"
+                tools:layout_editor_absoluteY="447dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox23"
+                android:layout_width="205dp"
+                android:layout_height="27dp"
+                android:text="@string/checkBox23"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:buttonTint="@color/white"
+                tools:layout_editor_absoluteX="90dp"
+                tools:layout_editor_absoluteY="474dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox24"
+                android:layout_width="205dp"
+                android:layout_height="27dp"
+                android:text="@string/checkBox24"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:buttonTint="@color/white"
+                tools:layout_editor_absoluteX="90dp"
+                tools:layout_editor_absoluteY="501dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox25"
+                android:layout_width="205dp"
+                android:layout_height="27dp"
+                android:text="@string/checkBox25"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:buttonTint="@color/white"
+                tools:layout_editor_absoluteX="90dp"
+                tools:layout_editor_absoluteY="528dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox26"
+                android:layout_width="205dp"
+                android:layout_height="27dp"
+                android:text="@string/checkBox26"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:buttonTint="@color/white"
+                tools:layout_editor_absoluteX="90dp"
+                tools:layout_editor_absoluteY="555dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox27"
+                android:layout_width="205dp"
+                android:layout_height="27dp"
+                android:text="@string/checkBox27"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:buttonTint="@color/white"
+                tools:layout_editor_absoluteX="90dp"
+                tools:layout_editor_absoluteY="581dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox28"
+                android:layout_width="205dp"
+                android:layout_height="27dp"
+                android:text="@string/checkBox28"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:buttonTint="@color/white"
+                tools:layout_editor_absoluteX="90dp"
+                tools:layout_editor_absoluteY="608dp" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textView58"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="21sp"
+                tools:layout_editor_absoluteX="65dp"
+                tools:layout_editor_absoluteY="655dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox29"
+                android:layout_width="205dp"
+                android:layout_height="27dp"
+                android:text="@string/checkBox29"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:buttonTint="@color/white"
+                tools:layout_editor_absoluteX="90dp"
+                tools:layout_editor_absoluteY="682dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox30"
+                android:layout_width="205dp"
+                android:layout_height="27dp"
+                android:text="@string/checkBox30"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:buttonTint="@color/white"
+                tools:layout_editor_absoluteX="90dp"
+                tools:layout_editor_absoluteY="710dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox31"
+                android:layout_width="205dp"
+                android:layout_height="27dp"
+                android:text="@string/checkBox31"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:buttonTint="@color/white"
+                tools:layout_editor_absoluteX="90dp"
+                tools:layout_editor_absoluteY="738dp" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textView59"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="21sp"
+                tools:layout_editor_absoluteX="65dp"
+                tools:layout_editor_absoluteY="775dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox32"
+                android:layout_width="205dp"
+                android:layout_height="27dp"
+                android:text="@string/checkBox32"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:buttonTint="@color/white"
+                tools:layout_editor_absoluteX="90dp"
+                tools:layout_editor_absoluteY="798dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox33"
+                android:layout_width="205dp"
+                android:layout_height="27dp"
+                android:text="@string/checkBox33"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:buttonTint="@color/white"
+                tools:layout_editor_absoluteX="90dp"
+                tools:layout_editor_absoluteY="824dp" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textView60"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="21sp"
+                tools:layout_editor_absoluteX="64dp"
+                tools:layout_editor_absoluteY="920dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox36"
+                android:layout_width="205dp"
+                android:layout_height="27dp"
+                android:text="@string/checkBox36"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:buttonTint="@color/white"
+                tools:layout_editor_absoluteX="94dp"
+                tools:layout_editor_absoluteY="950dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox39"
+                android:layout_width="205dp"
+                android:layout_height="27dp"
+                android:text="@string/checkBox39"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:buttonTint="@color/white"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="1029dp" />
+
+            <Button
+                android:id="@+id/conf_btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_700"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/conf_btn3"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:backgroundTint="@android:color/holo_blue_light"
+                tools:layout_editor_absoluteX="90dp"
+                tools:layout_editor_absoluteY="1116dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

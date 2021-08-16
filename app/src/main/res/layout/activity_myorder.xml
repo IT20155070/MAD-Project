@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".myorder">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="#4DAE6395"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="403dp"
+                android:layout_height="394dp"
+                android:background="@drawable/order5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="114dp">
+
+                <TextView
+                    android:id="@+id/textView82"
+                    android:layout_width="153dp"
+                    android:layout_height="73dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginRight="24dp"
+                    android:text="@string/textView82"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    tools:layout_editor_absoluteY="131dp" />
+
+                <TextView
+                    android:id="@+id/textView75"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/textView75"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="32dp" />
+
+                <TextView
+                    android:id="@+id/textView76"
+                    android:layout_width="138dp"
+                    android:layout_height="26dp"
+                    android:text="@string/textView76"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/textView75"
+                    tools:layout_editor_absoluteX="227dp" />
+
+                <TextView
+                    android:id="@+id/textView77"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textView77"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    tools:layout_editor_absoluteX="32dp"
+                    tools:layout_editor_absoluteY="55dp" />
+
+                <TextView
+                    android:id="@+id/textView78"
+                    android:layout_width="134dp"
+                    android:layout_height="28dp"
+                    android:text="@string/textView78"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/textView77"
+                    tools:layout_editor_absoluteX="227dp" />
+
+                <TextView
+                    android:id="@+id/textView79"
+                    android:layout_width="169dp"
+                    android:layout_height="26dp"
+                    android:text="@string/textView79"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    tools:layout_editor_absoluteX="32dp"
+                    tools:layout_editor_absoluteY="96dp" />
+
+                <EditText
+                    android:id="@+id/editTextNumberDecimal"
+                    android:layout_width="124dp"
+                    android:layout_height="26dp"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    tools:layout_editor_absoluteX="227dp"
+                    tools:layout_editor_absoluteY="88dp" />
+
+                <TextView
+                    android:id="@+id/textView81"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textView81"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    tools:layout_editor_absoluteX="32dp"
+                    tools:layout_editor_absoluteY="142dp" />
+
+                <TextView
+                    android:id="@+id/textView73"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textView73"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:layout_editor_absoluteX="62dp"
+                    tools:layout_editor_absoluteY="236dp" />
+
+                <TextView
+                    android:id="@+id/textView74"
+                    android:layout_width="117dp"
+                    android:layout_height="26dp"
+                    android:text="TextView"
+                    tools:layout_editor_absoluteX="219dp"
+                    tools:layout_editor_absoluteY="235dp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/textView72"
+                android:textColor="#00008B"
+                android:textSize="30sp"
+                tools:layout_editor_absoluteX="137dp"
+                tools:layout_editor_absoluteY="46dp" />
+
+            <Button
+                android:id="@+id/edit_btn"
+                android:layout_width="160dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginLeft="36dp"
+                android:background="@android:color/holo_red_dark"
+                android:text="@string/edit_btn"
+                app:backgroundTint="#192841"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="530dp" />
+
+            <Button
+                android:id="@+id/delete_btn"
+                android:layout_width="160dp"
+                android:layout_height="46dp"
+                android:background="@android:color/holo_red_dark"
+                android:text="@string/delete_btn"
+                app:backgroundTint="#192841"
+                tools:layout_editor_absoluteX="212dp"
+                tools:layout_editor_absoluteY="530dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="42dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/menu"
+                tools:layout_editor_absoluteY="15dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="175dp"
+                android:layout_height="55dp"
+                android:text="@string/button2"
+                android:textColor="@color/white"
+                app:backgroundTint="#192841"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="598dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

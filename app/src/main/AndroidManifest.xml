@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MAD">
+        <activity android:name=".myorder"></activity>
+        <activity android:name=".nightparty1" />
+        <activity android:name=".AlmsGiving1" />
+        <activity android:name=".ppackage2" />
+        <activity android:name=".ppackage1" />
+        <activity android:name=".bookmybuffet" />
+        <activity android:name=".signup" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
